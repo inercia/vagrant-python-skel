@@ -1,0 +1,13 @@
+Procedure
+=========
+
+    $ mkdir ~/rpmbuild ~/rpmbuild/BUILD ~/rpmbuild/RPMS ~/rpmbuild/RPMS/i386 ~/rpmbuild/RPMS/i686 ~/rpmbuild/RPMS/noarch ~/rpmbuild/SOURCES ~/rpmbuild/SPECS ~/rpmbuild/SRPMS ~/rpmbuild/tmp
+    $ cd ~/rpmbuild/SOURCES
+    $ wget http://python.org/ftp/python/2.7.2/Python-2.7.3.tar.bz2
+    $ cp python-2.7.3-1.spec  ~/rpmbuild/SPECS
+    $ rpmbuild -ba ~/rpmbuild/SPECS/python-2.7.3-1.spec
+    
+    
+
+
+
